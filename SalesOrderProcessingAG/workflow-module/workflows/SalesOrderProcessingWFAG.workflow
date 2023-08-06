@@ -125,6 +125,7 @@
 		"72b5aec1-c08a-436e-af44-e2cb62ca6832": {
 			"classDefinition": "com.sap.bpm.wfs.UserTask",
 			"subject": "ItemDetails",
+			"description": "Items Details",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
 			"supportsForward": false,
