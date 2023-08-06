@@ -1,4 +1,5 @@
 {
+"salesOrderDetails": {
   "shipToParty": "17100006",
   "salesOrderType": "OR",
   "salesOrganisation": "1710",
@@ -6,5 +7,11 @@
   "shippingCountry": "German",
   "division": "00",
   "orderAmount": 200,
-  "material": "ABC"
+  "material": "ABC",
+  "item": {
+      "LineItem": "10",
+      "material": "TG11",
+      "quantity": "1"
+  }
+}
 }
