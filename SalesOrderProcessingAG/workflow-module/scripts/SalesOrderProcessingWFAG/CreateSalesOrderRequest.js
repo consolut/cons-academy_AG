@@ -9,20 +9,16 @@ $.context.SalesOrderHeader = {
 var body = 
 {
 
-	"ShipToParty": "$.context.ShipToParty",
+	"SoldToParty": $.context.salesOrderDetails.shipToParty,
+    "SalesOrderType": $.context.salesOrderDetails.salesOrderType,
+    "TotalNetAmount": $.context.salesOrderDetails.orderAmount.toString(),
+    "SalesOrganization": $.context.salesOrderDetails.salesOrganisation,
+    "DistributionChannel": $.context.salesOrderDetails.distributionChannel,
+    "OrganizationDivision": $.context.salesOrderDetails.division
 
-	"SalesOrderType": "$.context.SalesOrderType",
-
-	"TotalNetAmount": "$.context.OrderAmount.toString()",
-
-	"SalesOrganization": "$.context.SalesOrganisation",
-
-	"DistributionChannel": "$.context.DistributionChannel",
-
-	"OrganizationDivision": "$.context.division"
+ 
 
 }
 
 $.context.SalesOrderHeader.request = body
-
 	

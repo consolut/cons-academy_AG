@@ -16,17 +16,17 @@
                     "type": "string",
                     "label": "ShipToParty",
                     "readOnly": true,
-                    "value": "${context.shipToParty}",
+                    "value": "${context.salesOrderDetails.shipToParty}",
                     "constraints": {
                         "required": false
                     }
                 },
                 {
-                    "id": "salesorganization",
+                    "id": "salesorganisation",
                     "type": "string",
-                    "label": "SalesOrganization",
+                    "label": "SalesOrganisation",
                     "readOnly": true,
-                    "value": "${context.salesOrganisation}",
+                    "value": "${context.salesOrderDetails.salesOrganisation}",
                     "constraints": {
                         "required": false
                     }
@@ -36,7 +36,7 @@
                     "type": "integer",
                     "label": "OrderAmount",
                     "readOnly": true,
-                    "value": "${context.orderAmount}",
+                    "value": "${context.salesOrderDetails.orderAmount}",
                     "constraints": {
                         "required": false
                     }
