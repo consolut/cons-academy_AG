@@ -12,11 +12,11 @@ $.context.SalesOrderItem = {
 var body = {
 
  
-    "LineItem": $.context.salesOrderDetails.item.lineItem,
+    "SalesOrderItem": $.context.salesOrderDetails.item.lineItem,
 
     "Material": $.context.salesOrderDetails.item.material,
 
-    "Quantity": $.context.salesOrderDetails.item.quantity.toString()
+    "RequestedQuantity": $.context.salesOrderDetails.item.quantity.toString()
 
 
 }
